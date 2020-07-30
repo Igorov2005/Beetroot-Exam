@@ -4,9 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exam Digital Products</title>
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./font/ProximaNova-Semibold.ttf">
 
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/animate.css">
@@ -14,10 +12,10 @@
   <script src="./script/wow.min.js"></script>
 
 
-
   <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
   <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
 
+  <title>Document</title>
 </head>
 
 <body>
@@ -30,6 +28,15 @@
           </div>
         </a>
         <nav class="title_nav">
+
+          <div class="mobile__buttons">
+            <button class="m_menu_button">
+              <span class="menu_line"></span>
+              <span class="menu_line"></span>
+              <span class="menu_line"></span>
+            </button>
+            <p class="span__menu">MENU</p>
+          </div>
           <div class="title_block">
             <a href="#home" class="link title-link">Home</a>
             <a href="#about" class="link title-link">About</a>
@@ -48,19 +55,20 @@
             nisi erat porttitor ligula, eget lacinia odio sem nec elit</i></p>
       </div>
     </header>
-
     <div class="section__about">
       <div id="about"></div>
-      <div class="block__about">
+      <div class="block__about " style="margin-top: 50px">
         <div class="link__about wow fadeInLeft" data-wow-offset="200" data-wow-delay="1s">
-          <img class="img__face" src="./image/Container_2/fase_aboutUs.png" alt="face_img">
+          <img class="img__face" src="../digital_products_blocks/image/Container_2/fase_aboutUs.png" alt="face_img">
 
           <h2 class="text_title">About Us</h2>
 
         </div>
         <div class="block__info">
-          <div class="text__block">
-            <p>Nullam quis risus eget urna <b>mollis ornare</b> vel eu leo. Donec id elit non mi porta gravida at eget
+          <div class="text__block__about">
+            <p class="text__about">Nullam quis risus eget urna <b>mollis ornare</b> vel eu leo. Donec id elit non mi
+              porta
+              gravida at eget
               metus.
               Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum
               faucibus dolor auctor.
@@ -77,7 +85,6 @@
         </div>
       </div>
     </div>
-
     <div class="section_services">
       <div id="services"></div>
       <div class="block__description">
@@ -149,17 +156,23 @@
 
           <div class="our__services wow fadeInDown">
             <img class="img__paper" src="./image/Container_3/cont3_paper.svg" alt="paper_img">
-            <h2 class="text__services">OUR SERVICES</h2>
+            <h2 class="text__services__our">OUR SERVICES</h2>
+            <div class="paragraf__our">
+              <p class="text__our__par"><i>“Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit
+                  libero,
+                  a
+                  pharetra augue.”</i></p>
+              <p class="text__our__par2"> <b> - Borat -</b></p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
     <div class="section__works">
       <div id="works"></div>
       <div class="our__works">
         <img class="img_pen" src="./image/Container_4/pen.png" alt="pen_img">
-        <h2 class="text__services">RECENT WORKS</h2>
+        <h2 class="text__works">RECENT WORKS</h2>
       </div>
       <div class="slider_works">
         <div class="works__slider">
@@ -168,15 +181,15 @@
             <div class="our__slide">
               <img src="./image/Container_4/bg_slider_1.png" alt="" class="slide__img">
             </div>
-            <!-- <div class="our__slide">
+            <div class="our__slide">
               <img src="./image/Container_4/bg_slider_2.png" alt="" class="slide__img">
-            </div> -->
-            <!-- <div class="our__slide">
+            </div>
+            <div class="our__slide">
               <img src="./image/Container_4/bg_slider_1.png" alt="" class="slide__img">
             </div>
             <div class="our__slide">
               <img src="./image/Container_4/bg_slider_2.png" alt="" class="slide__img">
-            </div> -->
+            </div>
 
           </div>
 
@@ -189,110 +202,121 @@
       </div>
 
     </div>
-
-    <!-- <div class="section__our__team">-->
-    <!-- <div id="works"></div> -->
     <div class="section__our__team">
-      <img class="img_team" src="./image/Container_5/Icon-Team.svg" alt="team logo">
+      <img class="img_team" src="./image/Container_5/Icon-Team.svg" alt="team logo" style="
+      margin-top: 40px;">
       <h2 class="text__team">MEET OUR TEAM</h2>
 
+      <div class="slaider_show">
+        <div class="team__mean">
+          <div class="section_slaide">
+            <div class="team__employee">
+              <div class="team__picture">
+                <img class="team__foto" src="./image/Container_5/foto_1.png" alt="foto1">
+              </div>
+              <div class="team__panel">
+                <h3 class="team__name">Miguel Obrien</h3>
+                <p class="team__position"><i>CEO & Founder</i></p>
+              </div>
 
-      <div class="team__mean">
-        <div class="team__employee">
-          <div class="team__picture">
-            <img class="team__foto" src="./image/Container_5/foto_1.png" alt="foto1">
-          </div>
-          <div class="team__panel">
-            <h3 class="team__name">Miguel Obrien</h3>
-            <p class="team__position"><i>CEO & Founder</i></p>
-          </div>
-
-          <div class="team__footer">
-            <ul class="social team__social">
-              <li class="social__item"><a href="#"><img src="./image/Social Link/soc_linked-in.svg"></a></li>
-              <li class="social__item"><a href="#"><img src="./image/Social Link/soc_google+.svg"></a></li>
-              <li class="social__item"><a href="#"><img src="./image/Social Link/soc_facebook.svg"></a></li>
-              <li class="social__item"><a href="#"><img src="./image/Social Link/soc_twitter.svg"></a></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="team__employee">
-          <div class="team__picture">
-            <img class="team__foto" src="./image/Container_5/foto_2.png" alt="foto1">
-          </div>
-          <div class="team__panel">
-            <h3 class="team__name">Jackie Carroll</h3>
-            <p class="team__position"><i>Art Director</i></p>
-          </div>
-
-          <div class="team__footer">
-            <ul class="social team__social">
-              <li class="social__item"><a href="#"><img src="./image/Social Link/soc_behance.svg"></a></li>
-              <li class="social__item"><a href="#"><img src="./image/Social Link/linked-in.svg"></a></li>
-              <li class="social__item"><a href="#"><img src="./image/Social Link/soc_google+.svg"></a></li>
-              <li class="social__item"><a href="#"><img src="./image/Social Link/soc_facebook.svg"></a></li>
-              <li class="social__item"><a href="#"><img src="./image/Social Link/soc_twitter.svg"></a></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="team__employee">
-          <div class="team__picture">
-            <img class="team__foto" src="./image/Container_5/foto_3.png" alt="foto1">
-          </div>
-          <div class="team__panel">
-            <h3 class="team__name">Ida Morrison</h3>
-            <p class="team__position"><i>Designer</i></p>
-          </div>
-
-          <div class="team__footer">
-            <ul class="social team__social">
-              <li class="social__item"><a href="#"><img src="./image/Social Link/soc_behance.svg"></a></li>
-              <li class="social__item"><a href="#"><img src="./image/Social Link/linked-in.svg"></a></li>
-              <li class="social__item"><a href="#"><img src="./image/Social Link/soc_google+.svg"></a></li>
-              <li class="social__item"><a href="#"><img src="./image/Social Link/soc_facebook.svg"></a></li>
-              <li class="social__item"><a href="#"><img src="./image/Social Link/soc_twitter.svg"></a></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="team__employee">
-          <div class="team__picture">
-            <div class="cat__border">
-              <img class="team__foto cat" src="./image/Container_5/cat.jpg" alt="foto1">
+              <div class="team__footer">
+                <ul class="social team__social">
+                  <li class="social__item"><a href="#"><img src="./image/Social Link/soc_linked-in.svg"></a></li>
+                  <li class="social__item"><a href="#"><img src="./image/Social Link/soc_google+.svg"></a></li>
+                  <li class="social__item"><a href="#"><img src="./image/Social Link/soc_facebook.svg"></a></li>
+                  <li class="social__item"><a href="#"><img src="./image/Social Link/soc_twitter.svg"></a></li>
+                </ul>
+              </div>
             </div>
           </div>
-          <div class="team__panel ">
+          <div class="section_slaide">
+            <div class="team__employee">
+              <div class="team__picture">
+                <img class="team__foto" src="./image/Container_5/foto_2.png" alt="foto1">
 
-            <h3 class="team__name">CAT TOM</h3>
+              </div>
 
-            <p class="team__position"><i>Development</i></p>
+              <div class="team__panel">
+                <h3 class="team__name">Jackie Carroll</h3>
+                <p class="team__position"><i>Art Director</i></p>
+              </div>
+
+              <div class="team__footer">
+                <ul class="social team__social">
+                  <li class="social__item"><a href="#"><img src="./image/Social Link/soc_behance.svg"></a></li>
+                  <li class="social__item"><a href="#"><img src="./image/Social Link/linked-in.svg"></a></li>
+                  <li class="social__item"><a href="#"><img src="./image/Social Link/soc_google+.svg"></a></li>
+                  <li class="social__item"><a href="#"><img src="./image/Social Link/soc_facebook.svg"></a></li>
+                  <li class="social__item"><a href="#"><img src="./image/Social Link/soc_twitter.svg"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="section_slaide">
+            <div class="team__employee">
+              <div class="team__picture">
+                <img class="team__foto" src="./image/Container_5/foto_3.png" alt="foto1">
+
+              </div>
+
+              <div class="team__panel">
+                <h3 class="team__name">Ida Morrison</h3>
+                <p class="team__position"><i>Designer</i></p>
+              </div>
+
+              <div class="team__footer">
+                <ul class="social team__social">
+                  <li class="social__item"><a href="#"><img src="./image/Social Link/soc_behance.svg"></a></li>
+                  <li class="social__item"><a href="#"><img src="./image/Social Link/linked-in.svg"></a></li>
+                  <li class="social__item"><a href="#"><img src="./image/Social Link/soc_google+.svg"></a></li>
+                  <li class="social__item"><a href="#"><img src="./image/Social Link/soc_facebook.svg"></a></li>
+                  <li class="social__item"><a href="#"><img src="./image/Social Link/soc_twitter.svg"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="section_slaide">
+            <div class="team__employee">
+              <div class="team__picture">
+                <img class="team__foto cat" src="./image/Container_5/cat_haker.jpg" alt="foto1">
+              </div>
+
+
+              <div class="team__panel">
+                <h3 class="team__name">Cat Tom</h3>
+                <p class="team__position"><i>Developer</i></p>
+              </div>
+
+              <div class="team__footer">
+                <ul class="social team__social">
+                  <li class="social__item"><a href="#"><img src="./image/Social Link/soc_behance.svg"></a></li>
+                  <li class="social__item"><a href="#"><img src="./image/Social Link/linked-in.svg"></a></li>
+                  <li class="social__item"><a href="#"><img src="./image/Social Link/soc_google+.svg"></a></li>
+                  <li class="social__item"><a href="#"><img src="./image/Social Link/soc_facebook.svg"></a></li>
+                  <li class="social__item"><a href="#"><img src="./image/Social Link/soc_twitter.svg"></a></li>
+                </ul>
+              </div>
+            </div>
           </div>
 
-          <div class="team__footer">
-            <ul class="social team__social">
-              <li class="social__item"><a href="#"><img src="./image/Social Link/soc_behance.svg"></a></li>
-              <li class="social__item"><a href="#"><img src="./image/Social Link/linked-in.svg"></a></li>
-              <li class="social__item"><a href="#"><img src="./image/Social Link/soc_google+.svg"></a></li>
-              <li class="social__item"><a href="#"><img src="./image/Social Link/soc_facebook.svg"></a></li>
-              <li class="social__item"><a href="#"><img src="./image/Social Link/soc_twitter.svg"></a></li>
-            </ul>
-          </div>
         </div>
-
       </div>
-
     </div>
-    <!-- </div> -->
-
     <div class="section__contact">
       <div id="contact"></div>
-      <div class="contact__title">
-        <img class="img_team4" src="./image/Footer/point_map.svg" alt="point logo">
-        <h2 class="text__team4">GET IN TOUCH</h2>
+
+      <div id="map">
+        <!-- <iframe
+          src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d5101.5636810449705!2d28.6586826!3d50.2586587!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1596029674672!5m2!1suk!2sua"
+          width="1333" height="800" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0"></iframe> -->
+
       </div>
 
+      <div class="contact__title">
+        <img class="img_team4" src="./image/Footer/point_map.svg" alt="point logo">
+        <h2 class="text__team6">GET IN TOUCH</h2>
+      </div>
       <div class="contact__info">
         <div class="block__adress">
           <a class="contact__actions" href="#">
@@ -312,35 +336,37 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="block__input">
-          <div class="block__name">
-            <div class="form__controls">
-              <input class="form__input" type="text" placeholder="Your Name *" />
+      <div class="form__contact">
+        <div class="row">
+          <div class="block__input">
+            <div class="block__name">
+              <div class="form__controls">
+                <input class="form__input" type="text" placeholder="Your Name *" />
 
+              </div>
+            </div>
+            <div class="block__email">
+              <div class="form__controls">
+                <input class="form__input" type="email" placeholder="Your Email *" />
+
+              </div>
             </div>
           </div>
-          <div class="block__email">
+          <div class="block__textarea">
             <div class="form__controls">
-              <input class="form__input" type="email" placeholder="Your Email *" />
+              <textarea class="form__inputs" placeholder="Your Message *"></textarea>
 
             </div>
           </div>
         </div>
-        <div class="block__textarea">
-          <div class="form__controls">
-            <textarea class="form__inputs" placeholder="Your Message *"></textarea>
 
-          </div>
+        <div class="form__submit">
+          <input class="btn btn__submit" type="submit" value="SEND MESSAGE" />
         </div>
       </div>
 
-      <div class="form__submit">
-        <input class="btn btn__submit" type="submit" value="SEND MESSAGE" />
-      </div>
 
     </div>
-
     <footer>
       <div class="container__footer">
         <div class="string__footer df__alitem_centr__justcont_centr">
@@ -361,15 +387,25 @@
       </div>
     </footer>
 
+
+
+
+    <!-- кнопка -->
     <span class="scroll_top">
-      <a id="upbutton" href="#" onclick="smoothJumpUp(); return false;"> <svg
-          class="svg-inline--fa fa-chevron-up fa-w-14" aria-hidden="true" data-prefix="fas" data-icon="chevron-up"
-          role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
-          <path fill="currentColor"
-            d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z">
-          </path>
-        </svg></a>
+
+      <a id="upbutton" href="#" onclick="smoothJumpUp(); return false;"> <svg xmlns="http://www.w3.org/2000/svg"
+          width="50" height="50" viewBox="0 0 84 84">
+          <g id="Arrow-Up" transform="translate(-1387 -5256)">
+
+            <path id="interface_-_arrow_top_" data-name="interface - arrow top "
+              d="M1445.112,5308.534,1429,5290.319l-16.112,18.214a1.054,1.054,0,0,1-1.379.342.9.9,0,0,1-.37-1.276l16.923-19.132a1.179,1.179,0,0,1,1.877,0l16.923,19.132a.9.9,0,0,1-.369,1.276,1.072,1.072,0,0,1-.5.125A1.027,1.027,0,0,1,1445.112,5308.534Z"
+              fill="#e5e5e5" />
+          </g>
+        </svg>
+      </a>
     </span>
+
+
 
   </main>
 
@@ -381,7 +417,13 @@
   <script>
     new WOW().init();
   </script>
+
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBif8lzty-1jlZl5bJmptPxxeNzCctI2b8&callback=initMap">
+  </script>
+
   <script src="./script/script.js"></script>
+
 </body>
 
 </html>

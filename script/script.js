@@ -3,23 +3,25 @@
 
 //слайдер 1
 
-// $('.slider__our__team').slick({
-//   slidesToShow: 4,
-//   slidesToScroll: 1,
-//   autoplay: true,
-//   autoplaySpeed: 2000,
-//   dots: true,
-// });
+$('.slider__our__team').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  // dots: true,
+});
 
 
-//слайдер 2
+// слайдер 2
+
 $(document).ready(function () {
   $('.team__mean').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
+    infinite: true,
     autoplay: true,
     loop: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 3500,
     dots: true,
   });
 
@@ -62,3 +64,33 @@ window.onscroll = function () {
   }
 };
 
+// карта
+// mapboxgl.accessToken = 'pk.eyJ1IjoiaWdvcm92IiwiYSI6ImNrZDhpdXA0dDBxcXUyeXRnYmJ2NWVvMnQifQ.m0mRvagvPgTLD9gXZk3qcw';
+// var map = new mapboxgl.Map({
+//   container: 'map',
+//   style: 'mapbox://styles/mapbox/streets-v11'
+// });
+
+
+function initMap() {
+
+  let element = document.getElementById('map');
+  let options = {
+    zoom: 10,
+    center: {
+      lat: 50.450001,
+      lng: 30.523333
+    }
+  };
+
+  let myMap = new google.maps.Map(element, options);
+
+  let marker = new google.maps.Marker({
+    position: {
+      lat: 50.258889,
+      lng: 28.656604
+    },
+    map: myMap,
+    title: 'Beetroot Academy Zhytomyr'
+  })
+};
